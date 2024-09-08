@@ -33,11 +33,12 @@ estado=st.selectbox(
 
 
 
-bucket = "Elec_var"
-org = "cmcorrea4@gmail.com"
-token = "VmIHuN_GB8AhmOchqnjtgrOL-oD2pHU-2ypKcswWbtM6aY1G2ylRYOJQpsqEANVl9iZ5PdAGqTsOJ30NPCtPUQ=="
+bucket = "ejemplo"
+org = "tampa_cleaning"
+token = "gY5PojXQ1zAbW2CwdUMFjG5l4PsmLYcx9WCSvJx3Jiq73PZUpRyGWALnB3WqaAUvMfjUo7GgCFph28zwcKHNUQ=="
 # Store the URL of your InfluxDB instance
-url="https://eu-central-1-1.aws.cloud2.influxdata.com"
+url="https://us-east-1-1.aws.cloud2.influxdata.com"
+#cuando sea el local host 8086.....
 
 if st.button('Registrar'):
    client = influxdb_client.InfluxDBClient(url=url,token=token,org=org)
