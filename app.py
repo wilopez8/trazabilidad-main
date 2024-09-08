@@ -33,7 +33,7 @@ estado=st.selectbox(
 
 
 
-bucket = "ejemplo"
+bucket = "prueba1"
 org = "tampa_cleaning"
 token = "gY5PojXQ1zAbW2CwdUMFjG5l4PsmLYcx9WCSvJx3Jiq73PZUpRyGWALnB3WqaAUvMfjUo7GgCFph28zwcKHNUQ=="
 # Store the URL of your InfluxDB instance
